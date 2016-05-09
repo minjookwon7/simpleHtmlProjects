@@ -1,0 +1,53 @@
+body > div {
+    
+    
+}
+
+#header, #footer {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: pink;
+    height: 30px;
+    width: auto;
+}
+
+#footer {
+    text-align: center;
+}
+
+#email {
+    float: right;
+}
+.left {
+    float: left;
+    height: 100px;
+    background-color: #ffffe6;
+    width: 10%;
+    padding: 10px;
+    height: 500px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right {
+    display: inline;
+    position: relative;
+    float: left;
+    width: 85%;
+    height: 520px;
+    background-color:#f0b3ff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+#footer {
+    clear: both;
+}
